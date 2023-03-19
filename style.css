@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./portfolio/profile.jpg");
+    background-size:auto;
+    background-position: center;
+}
+.navigate{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.navigate:hover{
+    color: red;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h2{
+    color: white;
+    margin: 20px 0px 2px;
+}
+
+h5{
+    color: red;
+    text-align:  left;
+    font-size: 20px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position:relative;
+
+
+}
